@@ -1,5 +1,3 @@
-# Yo
-
-This repo contains my code/documents for my Intro to ML class
+This repo contains my code and documents for my intro to ML class.
 
 Enjoy!
