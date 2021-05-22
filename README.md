@@ -1,4 +1,4 @@
-# ml_class
+# nueva_ml
 
-This repo contains my code and documents for my intro to and advanced machine learning classes.  
+Work for courses CS320 (Intro ML) and CS321 (Adv ML) at Nueva.
 * [The coursenotes](https://jennselby.github.io/MachineLearningCourseNotes/#what-is-machine-learning).
