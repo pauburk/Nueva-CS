@@ -31,9 +31,7 @@ python3 -m pip install packagename
 
 <br/>
 
-<br/>
-
-__Create a virtual environment in MacOS:__ [(link)](https://docs.python.org/3/tutorial/venv.html)
+### Create a virtual environment in MacOS: [(link)](https://docs.python.org/3/tutorial/venv.html)
 1. Navigate to the project directory you want to create the virtual environment in.
 2. Create a virtual environment:
 ```bash
@@ -47,9 +45,7 @@ source venvname/bin/activate
 
 <br/>
 
-<br/>
-
-__Adding a virtual environment as a Jupyter kernel:__ [(link)](https://queirozf.com/entries/jupyter-kernels-how-to-add-change-remove)
+### Adding a virtual environment as a Jupyter kernel: [(link)](https://queirozf.com/entries/jupyter-kernels-how-to-add-change-remove)
 1. Activate the virtual environment:
 ```bash
 source venvname/bin/active
