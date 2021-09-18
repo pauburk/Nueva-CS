@@ -4,6 +4,7 @@ _Assorted work for courses CS240 (Computer Security, taught by Wes Chao), CS280 
 * [Machine Learning coursenotes](https://jennselby.github.io/MachineLearningCourseNotes/).
 * [Computer Security coursenotes](https://jennselby.github.io/ComputerSecurityCourseNotes/).
 
+<br/>
 
 ## Setup:
 __Install Homebrew and Python 3 in MacOS:__ [(link)](https://docs.python-guide.org/starting/install3/osx/)
@@ -28,8 +29,10 @@ brew install python
 python3 -m pip install packagename
 ```
 
-\
-\
+<br/>
+
+<br/>
+
 __Create a virtual environment in MacOS:__ [(link)](https://docs.python.org/3/tutorial/venv.html)
 1. Navigate to the project directory you want to create the virtual environment in.
 2. Create a virtual environment:
@@ -42,14 +45,16 @@ source venvname/bin/activate
 # to deactivate, type "deactivate"
 ```
 
-\
-\
+<br/>
+
+<br/>
+
 __Adding a virtual environment as a Jupyter kernel:__ [(link)](https://queirozf.com/entries/jupyter-kernels-how-to-add-change-remove)
 1. Activate the virtual environment:
 ```bash
 source venvname/bin/active
 ```
-2. Install jupyter in the virtual environment:
+2. Install Jupyter in the virtual environment:
 ```bash
 python3 -m pip install jupyter
 ```
