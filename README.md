@@ -4,7 +4,7 @@ _Assorted work for courses CS240 (Computer Security, taught by Wes Chao), CS280 
 * [Machine Learning coursenotes](https://jennselby.github.io/MachineLearningCourseNotes/).
 * [Computer Security coursenotes](https://jennselby.github.io/ComputerSecurityCourseNotes/).
 
-\
+
 ## Setup:
 __Install Homebrew and Python 3 in MacOS:__ [(link)](https://docs.python-guide.org/starting/install3/osx/)
 1. Install command line tools:
