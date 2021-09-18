@@ -45,7 +45,7 @@ source venvname/bin/activate
 
 <br/>
 
-### Adding a virtual environment as a Jupyter kernel: [(link)](https://queirozf.com/entries/jupyter-kernels-how-to-add-change-remove)
+### Adding a virtual environment as a Jupyter kernel in MacOS: [(link)](https://queirozf.com/entries/jupyter-kernels-how-to-add-change-remove)
 1. Activate the virtual environment:
 ```bash
 source venvname/bin/active
