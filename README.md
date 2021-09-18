@@ -1,10 +1,11 @@
 # nueva_cs
 
-Assorted work for courses CS240 (Computer Security, taught by Wes Chao), CS280 (Computer Vision, taught by Wes Chao), CS320 (Intro ML, taught by Wes Chao), CS321 (Adv ML, taught by Wes Chao) at Nueva.
+_Assorted work for courses CS240 (Computer Security, taught by Wes Chao), CS280 (Computer Vision, taught by Wes Chao), CS320 (Intro ML, taught by Wes Chao), CS321 (Adv ML, taught by Wes Chao) at Nueva._
 * [Machine Learning coursenotes](https://jennselby.github.io/MachineLearningCourseNotes/).
 * [Computer Security coursenotes](https://jennselby.github.io/ComputerSecurityCourseNotes/).
 
 \
+## Setup:
 __Install Homebrew and Python 3 in MacOS:__ [(link)](https://docs.python-guide.org/starting/install3/osx/)
 1. Install command line tools:
 ```bash
@@ -28,6 +29,7 @@ python3 -m pip install packagename
 ```
 
 \
+\
 __Create a virtual environment in MacOS:__ [(link)](https://docs.python.org/3/tutorial/venv.html)
 1. Navigate to the project directory you want to create the virtual environment in.
 2. Create a virtual environment:
@@ -40,6 +42,7 @@ source venvname/bin/activate
 # to deactivate, type "deactivate"
 ```
 
+\
 \
 __Adding a virtual environment as a Jupyter kernel:__ [(link)](https://queirozf.com/entries/jupyter-kernels-how-to-add-change-remove)
 1. Activate the virtual environment:
