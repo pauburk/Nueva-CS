@@ -11,6 +11,8 @@ _Assorted work for courses CS240 (Computer Security, taught by Wes Chao), CS280 
 1. Install command line tools:
 ```bash
 xcode-select --install
+# to update tools, use "softwareupdate --install -a"
+# from https://stackoverflow.com/questions/34617452/
 ```
 2. Install [Homebrew](https://brew.sh/):
 ```bash
@@ -56,5 +58,5 @@ python3 -m pip install jupyter
 ```
 3. Add the virtual environment as a kernel:
 ```bash
-ipython kernel install --name "Kernel Name" --user
+ipython kernel install --name "kernelname" --user
 ```
