@@ -7,7 +7,7 @@ _Assorted work for courses CS240 (Computer Security, taught by Wes Chao), CS280 
 <br/>
 
 ## Setup:
-#### Install Homebrew and Python 3 in MacOS: [(link)](https://docs.python-guide.org/starting/install3/osx/)
+### Install Homebrew and Python 3 in MacOS: [(link)](https://docs.python-guide.org/starting/install3/osx/)
 1. Install command line tools:
 ```bash
 xcode-select --install
