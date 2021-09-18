@@ -26,7 +26,7 @@ brew install python
 ```
 5. Install packages:
 ```bash
-pip3 install packagename
+python3 -m pip install packagename
 ```
 
 <br/>
@@ -52,7 +52,7 @@ source venvname/bin/active
 ```
 2. Install Jupyter in the virtual environment:
 ```bash
-pip3 install jupyter
+python3 -m pip install jupyter
 ```
 3. Add the virtual environment as a kernel:
 ```bash
