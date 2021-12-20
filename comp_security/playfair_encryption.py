@@ -99,16 +99,12 @@ def encrypt(keyword, raw_string):
         # RULE 2 >> letters are in the same row and they are substitued with the letters to the right (wraps)
         if pos1[0] == pos2[0]:
 
-            if pos1[1] == 4 and pos1[0] == 4: # if in the corner
-                encrypted_string += ntl[int(table[0][0])]
-            elif pos1[1] == 4: # if at the end of the row wrap
+            if pos1[1] == 4: # if at the end of the row wrap
                 encrypted_string += ntl[int(table[pos1[0]][0])]
             elif pos1[1] < 4:
                 encrypted_string += ntl[int(table[pos1[0]][pos1[1]+1])]
 
-            if pos2[1] == 4 and pos2[0] == 4: # if in the corner
-                encrypted_string += ntl[int(table[0][0])]
-            elif pos2[1] == 4: # if second letter is at the end of the row wrap
+            if pos2[1] == 4: # if second letter is at the end of the row wrap
                 encrypted_string += ntl[int(table[pos2[0]][0])]
             elif pos2[1] < 4:
                 encrypted_string += ntl[int(table[pos2[0]][pos2[1]+1])]
@@ -116,16 +112,12 @@ def encrypt(keyword, raw_string):
         # RULE 3 >> letters are in the same col and they are substituted with the letters to the bottom (wraps)
         elif pos1[1] == pos2[1]:
 
-            if pos1[0] == 4 and pos1[1] == 4: # if in the corner
-                encrypted_string += ntl[int(table[0][0])]
-            elif pos1[0] == 4: # if at the end of the col
+            if pos1[0] == 4: # if at the end of the col
                 encrypted_string += ntl[int(table[0][pos1[1]])]
             elif pos1[0] < 4:
                 encrypted_string += ntl[int(table[pos1[0]+1][pos1[1]])]
 
-            if pos2[0] == 4 and pos2[1] == 4: # if in the corner
-                encrypted_string += ntl[int(table[0][0])]
-            elif pos2[0] == 4: # if at the end of the col wrap
+            if pos2[0] == 4: # if at the end of the col wrap
                 encrypted_string += ntl[int(table[0][pos2[1]])]
             elif pos2[0] < 4:
                 encrypted_string += ntl[int(table[pos2[0]+1][pos2[1]])]
@@ -166,16 +158,12 @@ def decrypt(keyword, encrypted_string):
         # RULE 2 >> letters are in the same row and they need to be fixed by replacing them with the letter to the left (wraps)
         if pos1[0] == pos2[0]:
 
-            if pos1[1] == 0 and pos1[0] == 0: # if in the corner
-                original_string += ntl[int(table[4][4])]
-            elif pos1[1] == 0: # if at the end of the row
+            if pos1[1] == 0: # if at the end of the row
                 original_string += ntl[int(table[pos1[0]][4])]
             elif pos1[1] > 0:
                 original_string += ntl[int(table[pos1[0]][pos1[1]-1])]
 
-            if pos2[1] == 0 and pos2[0] == 0: # if in the corner
-                original_string += ntl[int(table[4][4])]
-            elif pos2[1] == 0: # if at the end of the row
+            if pos2[1] == 0: # if at the end of the row
                 original_string += ntl[int(table[pos2[0]][4])]
             elif pos2[1] > 0:
                 original_string += ntl[int(table[pos2[0]][pos2[1]-1])]
@@ -183,16 +171,12 @@ def decrypt(keyword, encrypted_string):
         # RULE 3 >> letters are in the same col and they need to be fixed by replacing them with the letter to the top (wraps)
         elif pos1[1] == pos2[1]:
 
-            if pos1[0] == 0 and pos1[1] == 0: # if in the corner
-                original_string += ntl[int(table[4][4])]
-            elif pos1[0] == 0: # if at the top of the col
+            if pos1[0] == 0: # if at the top of the col
                 original_string += ntl[int(table[4][pos1[1]])]
             elif pos1[0] > 0:
                 original_string += ntl[int(table[pos1[0]-1][pos1[1]])]
 
-            if pos2[0] == 0 and pos2[1] == 0: # if in the corner
-                original_string += ntl[int(table[4][4])]
-            elif pos2[0] == 0: # if at the top of the col
+            if pos2[0] == 0: # if at the top of the col
                 original_string += ntl[int(table[4][pos2[1]])]
             elif pos2[0] > 0:
                 original_string += ntl[int(table[pos2[0]-1][pos2[1]])]
