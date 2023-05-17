@@ -1,4 +1,4 @@
-# nueva_cs
+# Nueva-CS
 
 _Assorted work for courses CS240 (Computer Security, taught by Wes Chao), CS280 (Computer Vision, taught by Wes Chao), CS320 (Intro ML, taught by Wes Chao), CS321 (Adv ML, taught by Wes Chao) at Nueva._
 * [Machine Learning coursenotes](https://jennselby.github.io/MachineLearningCourseNotes/).
